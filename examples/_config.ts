@@ -1,5 +1,5 @@
 import {
-  GpioMapping,
+  //GpioMapping,
   LedMatrix,
   // LedMatrixUtils,
   MatrixOptions,
@@ -10,14 +10,15 @@ import {
 
 export const matrixOptions: MatrixOptions = {
   ...LedMatrix.defaultMatrixOptions(),
-  rows: 64,
+  rows: 32,
   cols: 64,
-  chainLength: 2,
-  hardwareMapping: GpioMapping.Regular,
-  parallel: 2,
+  chainLength: 8,
+  pwmBits: 6,
+  // hardwareMapping: GpioMapping.Regular,
+  // parallel: 2,
   // panelType: 'FM6127',
   // limitRefreshRateHz: 1,
-  showRefreshRate: true,
+  // showRefreshRate: true,
   // pixelMapperConfig: LedMatrixUtils.encodeMappers(
   //   { type: PixelMapperType.Chainlink }
   // ),

@@ -1,3 +1,13 @@
+
+# 20240219测试说明
+
+  这个binding设计的比较系统，typescript运行起来稍微有点麻烦。按照其readme中的指导，安装node-ts,可以正常工作。但是我尝试了 examples/text-layout-cli.ts，发现它对原本正常显示的中文字体（msyhXX.bdf）处理的不是很好，中文字间隔较大。暂时不知道原因，也不想细查了。因为，我看到了第三个选择 Project-MQTTpanel
+
+
+  repo中添加了雅黑字体 msyhxx.bdf。
+
+---
+
 [![Build - Raspberry Pi 3](https://github.com/alexeden/rpi-led-matrix/actions/workflows/raspberry-pi-3-build.yml/badge.svg?style=flat-square)](https://github.com/alexeden/rpi-led-matrix/actions/workflows/raspberry-pi-3-build.yml)
 ![npm version](https://img.shields.io/npm/v/rpi-led-matrix/latest)
 ![types](https://img.shields.io/npm/types/rpi-led-matrix)
